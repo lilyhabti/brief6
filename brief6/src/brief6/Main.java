@@ -105,6 +105,7 @@ public class Main {
 		} else if (operation == 3) {
 			System.out.print("Entrer l'Id de la categorie a fin de lister ses produits:  ");
 			int id = sc.nextInt();
+			
 			System.out.println(daoimpl.getById2(id));
 		}
 

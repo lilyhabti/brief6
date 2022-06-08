@@ -114,8 +114,8 @@ public class DaoImp implements Dao {
 
 			while (rs.next()) {
 				item = new Produits(rs.getString(1), rs.getString(2), rs.getInt(3));
-
-				item.setProduitsid(id);
+				
+				item.setCategoriesid(id);
 			}
 
 			ps.close();
